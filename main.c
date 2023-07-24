@@ -10,7 +10,7 @@
 *
 *
 *******************************************************************************
-* $ Copyright 2021 Cypress Semiconductor $
+* $ Copyright 2021-2023 Cypress Semiconductor $
 *******************************************************************************/
 
 #include "cyhal.h"
@@ -61,7 +61,7 @@ struct {
 * Summary:
 * This is the main function for CYW943907 MCU.
 *   1. Initialises the user button and enables Interrupt for the button press.
-*   2. Initialises the I2C Master
+*   2. Initialises the I2C Master.
 *   3. I2C Master reads the data from slave everytime user presses the button.
 *
 * Parameters:
